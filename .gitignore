@@ -1,9 +1,5 @@
-sort/a.out
 .vscode/
-base/a.out
-adt/a.out
-search/a.out
-/*/*.exe
+a.out
 *.exe
 /p
-submit
+/a
