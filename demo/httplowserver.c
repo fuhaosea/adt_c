@@ -61,7 +61,7 @@ int server_init(int *server_fd, struct sockaddr_in *address, int addrlen)
     address ->sin_family = AF_INET;
     address ->sin_addr.s_addr = INADDR_ANY;
     address ->sin_port = htons(PORT);
-    if (bind(*server_fd,address, addrlen) < 0)
+    if (bind(*server_fd,(struct sockaddr *) address, addrlen) < 0)
     {
         perror("bind failed");
         exit(EXIT_FAILURE);
