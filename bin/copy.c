@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 #define K 1024
 
@@ -15,7 +14,7 @@ int main(int argc,char *argv[]){
     // target = fopen("/root/c/RE.md", "wb+");
 
     if(src == NULL | target == NULL){
-        perror("FilePath ");
+        perror("SrcFile or Target Can't Be NULL ");
         exit(-1);
     }
     while( state == K){
