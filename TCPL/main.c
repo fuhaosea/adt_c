@@ -6,6 +6,6 @@
 
 int main(int argc , char * args[]){
     double result = 0.0;
-    show_limit();
+    show_float_limit();
     return 0;
 }
