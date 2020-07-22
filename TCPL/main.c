@@ -5,7 +5,6 @@
 #include "code1/index.h"
 
 int main(int argc , char * args[]){
-    double result = 0.0;
-    show_float_limit();
+
     return 0;
 }

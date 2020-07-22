@@ -42,8 +42,11 @@ void show_int_limit(void){
     printf("\n  LONG_MAX:\t%ld\n",LONG_MAX);
     printf("\n  ULONG_MAX:\t%lld\n",ULONG_MAX);
 }
+<<<<<<< HEAD
 void show_float_limit(void){
     float jack = 0.2004324;
     printf("\nSize of float: %d \nSize of double : %d\nSize of long double : %d",sizeof(float), sizeof(double),sizeof(long double));
     printf("\nFLT_MIN: %f",jack );
 }
+=======
+>>>>>>> 2427efa9a66c8435cc959d2bef5ce0a4743c9a7c
