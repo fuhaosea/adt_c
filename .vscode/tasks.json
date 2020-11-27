@@ -5,7 +5,7 @@
         {
             "type": "shell",
             "label": "cdebug",//任务的名字，就是刚才在命令面板中选择的时候所看到的，可以自己设置
-            "command": "D:/App/gcc/bin/gcc",
+            "command": "D:/App/runtime/gcc/bin/gcc",
             "args": [
                 "-g",
                 "${file}",
@@ -13,7 +13,7 @@
                 "${fileDirname}/${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "D:/App/gcc/bin/"
+                "cwd": "D:/App//runtime/gcc/bin/"
             },
             "problemMatcher": [
                 "$gcc"

@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// DataStruct define
 typedef struct link_node
 {
     int data;
     struct link_node *next;
 }Node;
-
+// Method define
 static Node * current_node;
 static int item;
 static int length;
